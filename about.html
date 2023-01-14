@@ -48,14 +48,22 @@
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
- 
+  <style>
+    .navbar .navbar-nav .nav-link:not(.btn) i.fa{
+      font-size: 20x;
+      position: relative;
+      top:0;
+      text-align: center;
+      width: 21px;
+    }
+  </style>
 </head>
 
+<body class="landing-page sidebar-collapse" style="background-color: brown;">
+  <!--https://mailchi.mp/fe86c93db6d3/romanian-cuisine-->
 
-<body class="index-page sidebar-collapse">
-    <!-- Navbar -->
-
-<nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+  <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
 <div class="container">
 
             <div class="navbar-translate">
@@ -75,45 +83,76 @@
             <div class="topnav" id="myTopnav">
                 <a href="index.html"><img class="logo" src="https://restaurantmoldova.co.uk/wp-content/uploads/2017/12/Untitled-22-150x150.png"></a>
   <a href="index.html" class="active">Home</a>
-  <a href="landing-page.html">About</a>
+  <a href=".../examples/landing-page.html">About</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
   
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
-    <i class="fa fa-bars"></i>
-  </a>
+ 
  </div>
 </div>
     </nav>
-  
-  <div id="intro-example" class="p-5 text-center bg-image"
-    style="background-image: url('https://images.unsplash.com/photo-1590577976322-3d2d6e2130d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80;">
-    <div class="mask" style="background-color: rgba(255, 99, 71, 0);">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-white">
-          <h1 class="mb-3">Romanian Cuisine </h1>
-          <h5 class="mb-4">
-            Memorable Experiences & Delicious Food!
-          </h5>
-          <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A"
-            role="button" rel="nofollow" target="_blank">Start tutorial</a>
-          <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/"
-            target="_blank" role="button">Download MDB UI KIT</a>
+    <!-- End Navbar -->
+   
+   
+    
+  <div class="wrapper">
+
+    <div class="page-header page-header-small">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0f/07/f3/78/inside.jpg');">
+      </div>
+      <div class="content-center">
+        <div class="container">
+          <h1 class="title">About Us</h1>
+          <h2 style="text-align: center;">Best Service, Best Food & best Atmosphere!</h2>
+          
         </div>
       </div>
     </div>
-  
+    <div class="section section-about-us">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto text-center">
+            <h2 class="title">About Us!</h2>
+            <h5 class="description">Good taste is at home, both literally and figuratively. You can serve sensational dishes, carefully prepared in our kitchen with fresh ingredients, all in an impeccable presentation. <br>We are waiting for you in our restaurant at any time of the day to serve the meal, having the opportunity to choose from a vast menu, created for all tastes.
+          </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section-story-overview">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="image-container image-left" style="background-image: url('https://i0.wp.com/s3.amazonaws.com/heights-photos/wp-content/uploads/2022/04/02161643/Screen-Shot-2022-04-02-at-4.14.02-PM.png?fit=1528%2C838&ssl=1')">
 
-   <!-- Welcome Section -->
-  <div class="container">
-    <div class="row d-flex align-items-center">
-        <div class="col-lg-6 hero-left">
-            <h1 class="display-4 mb-5">Memorable Experiences<br> and Delicious Food!</h1>
-            <div class="mb-2">
-                <a class="btn btn-primary btn-shadow btn-lg" href="#" role="button">Explore Menu</a>
-                <a  class="btn btn-primary btn-shadow btn-lg" href="https://youtu.be/rNAz7FBqH_Y" role="button"><i class="fa fa-play"></i> Video</a>
+                <!-- First image on the left side -->
+                <p class="blockquote blockquote-primary">"If more of us loved food, gaiety and music more than gold, the world would be a better place." 
+                  <br>
+                  <br>
+                  <small>-J.R.R. Tolkien</small>
+                </p>
+              </div>
+              <!-- Second image on the left side of the article -->
+              <div class="image-container" style="background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/17/16/9d/1e/vintage-design.jpg')"></div>
             </div>
-           
+            <div class="col-md-5">
+
+              <!-- First image on the right side, above the article -->
+              <div class="image-container image-right" style="background-image: url('https://media.licdn.com/dms/image/C4D22AQFQ5ASl-vaLwQ/feedshare-shrink_1280/0/1565343148089?e=2147483647&v=beta&t=yqPnbJuY2ds7S00-M_uZxZlyzQMsQ0UOaegqQKeJvx4')"></div>
+              <h3>So what offer our restaurant?</h3>
+              <p>The capacity of the restaurant, 140 seats in the lower room, 95 people in the upper room and 80 seats on the terrace, allows the organization of private parties, business meals, buffets, festive meals, etc.
+             </p>
+              
+              <p>
+                Private parking, extended opening hours on weekends, a superb summer terrace, a location that rivals the most established restaurants in London!
+
+              </p>
+              <p>A team made up of young and trained people will be at your disposal and warmly await you to satisfy all your demands!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
 <!-- Events Section -->
 <section id="gtco-welcome" class="bg-white section-padding">
     <div class="container">
@@ -169,6 +208,7 @@
     </div>
 </section>
 <!-- End of Events Section--> 
+
 <footer class="mastfoot pb-5 bg-white section-padding pb-0">
     <div class="inner container">
          <div class="row">
