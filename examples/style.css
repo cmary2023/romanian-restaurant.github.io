@@ -1,0 +1,69 @@
+.topnav {
+  /*background-color: #f96332;*/
+  overflow: hidden;
+  position: fixed; /* Set he navbar to fixed position */
+  top: 1px; /* Position the navbar at the top of the page */}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:;
+  color: pink;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: orange;
+  color: blue;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.logo{
+
+   display: inline-block;
+    vertical-align: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 2px;
+    margin-top:auto; 
+}
+#intro-example {
+      height: 400px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 90%;
+    }
+
+    /* Height for devices larger than 992px */
+    @media (min-width: 992px) {
+      #intro-example {
+        height: 600px;*
+      }
+    }
+    @font-face {
+  font-display: block;
+  font-family: "bootstrap-icons";
+  src: url("./fonts/bootstrap-icons.woff2?8d200481aa7f02a2d63a331fc782cfaf") format("woff2"),
+url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("woff");
+}
+p.round3 {
+ 
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+.a{
+list-style-type: square;
+
+}
